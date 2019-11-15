@@ -2,8 +2,8 @@
 Create Entity Relationship Diagrams(ERDs), perform data modeling, and complete analysis on an employee database using SQL techniques.
 
 BRIEF PROJECT SUMMARY
-      A company's baby boomer cohort wil be retiring at a rapid rate. The compnay wants to 
-      who would be retiring in the next few years, who would meet the crietria for retirement packages
+      A company's baby boomer cohort will be retiring at a rapid rate. The company wants to 
+      who would be retiring in the next few years, who would meet the criteria for retirement packages
       and how many positions will come available as a result. The database analysis will future proof 
       the company by generating a list of all employees getting ready to retire, who is eligible for the retirement package and retirees       who could be potential mentors and a resource for the company. 
       
@@ -13,7 +13,7 @@ BRIEF PROJECT SUMMARY
         Number of individuals available for mentorship role:2382
       
       Recommendation for further analysis on this data set.
-      Further analysis of this data set could involve quering for a list of eligible retirees per department by title by date.
+      Further analysis of this data set could involve querying for a list of eligible retirees per department by title by date.
       
       
 
