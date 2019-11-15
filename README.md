@@ -21,7 +21,7 @@ PNG OF YOUR ERD
 https://github.com/aodoming/Pewlett_Hackard_Analysis_ADominguez/blob/master/EmployeeDB.png
 
 
-
+!https://github.com/aodoming/Pewlett_Hackard_Analysis_ADominguez/blob/master/EmployeeDB.png
 
 
 
