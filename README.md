@@ -103,4 +103,4 @@ SELECT * FROM mentorship_info
 
 
 EXAMPLES OF EACH OUTPUT
-![Mentor](Mentorship_output.png)
+![Mentor](mentorship_output.PNG)
