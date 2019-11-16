@@ -30,7 +30,7 @@ PNG OF YOUR ERD
 			
 			
 
----------- Get a list of current employees eligible for retirement,including thieir most recent titles-----------------
+------------------------Get a list of current employees eligible for retirement,including thieir most recent titles-----------------
 
 SELECT cur.emp_no,
 	   cur.first_name,
@@ -49,7 +49,7 @@ EXAMPLES OF EACH OUTPUT
 ![retirees](ret_titles_output.PNG)
 
 -------------------------------- Unique &  Most Recent Titles Use Partitioning------------------------------------------
---   Get the final list with recent titles, by partitioning the data so that each employee is only included on the list once.
+--------------Get the final list with recent titles, by partitioning the data so that each employee is only included on the list once.
 
 
 SELECT *
@@ -73,7 +73,7 @@ EXAMPLES OF EACH OUTPUT
 
 
 ----------------------------------------------- Aggregate Level--------------------------------------------------
---      In descending order (by date), list the frequency count of employee titles (i.e., how many employees share the same title?)
+-------------In descending order (by date), list the frequency count of employee titles (i.e., how many employees share the same title?)
 
 
 SELECT COUNT(title), title
@@ -89,7 +89,7 @@ EXAMPLES OF EACH OUTPUT
 
 
 -------------------------------------------------Mentorship ----------------------------------------------------------------
-----               Should return the potential mentor’s
+--------------------------------------------Should return the potential mentor’s
 
 
 SELECT e.emp_no,
