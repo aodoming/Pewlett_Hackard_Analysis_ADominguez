@@ -45,6 +45,9 @@ ON cur.emp_no = t.emp_no;
 SELECT * FROM ret_titles
 
 
+EXAMPLES OF EACH OUTPUT
+![retirees](ret_titles_output.PNG)
+
 -------------------------------- Unique &  Most Recent Titles Use Partitioning------------------------------------------
 --   Get the final list with recent titles, by partitioning the data so that each employee is only included on the list once.
 
