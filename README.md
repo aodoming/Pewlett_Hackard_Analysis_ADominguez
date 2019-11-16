@@ -18,7 +18,7 @@ BRIEF PROJECT SUMMARY
       
 
 PNG OF YOUR ERD
-https://github.com/aodoming/Pewlett_Hackard_Analysis_ADominguez/blob/master/EmployeeDB.png
+![ERD](https://github.com/aodoming/Pewlett_Hackard_Analysis_ADominguez/blob/master/EmployeeDB.png)
 
 
 
