@@ -81,6 +81,9 @@ ORDER BY to_date DESC;
 
 SELECT * FROM retiring_emp_titles
 
+EXAMPLES OF EACH OUTPUT
+![retirees_emp](retiring_emp_titles_output.PNG)
+
 
 -------------------------------------------------Mentorship ----------------------------------------------------------------
 ----               Should return the potential mentor’s
