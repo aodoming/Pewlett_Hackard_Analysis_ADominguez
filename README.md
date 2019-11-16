@@ -26,7 +26,7 @@ PNG OF YOUR ERD
 
 
 -----------------------------------------------------CODE----------------------------------------------------------
-			(Code for the requested queries, with examples of each output)
+			    (Code for the requested queries, with examples of each output)
 			
 			
 
@@ -46,7 +46,7 @@ SELECT * FROM ret_titles
 
 
 -------------------------------- Unique &  Most Recent Titles Use Partitioning------------------------------------------
--- Get the final list with recent titles, by partitioning the data so that each employee is only included on the list once.
+--   Get the final list with recent titles, by partitioning the data so that each employee is only included on the list once.
 
 
 SELECT *
@@ -67,7 +67,7 @@ SELECT * FROM unique_titles
 
 
 ----------------------------------------------- Aggregate Level--------------------------------------------------
---In descending order (by date), list the frequency count of employee titles (i.e., how many employees share the same title?)
+--      In descending order (by date), list the frequency count of employee titles (i.e., how many employees share the same title?)
 
 
 SELECT COUNT(title), title
@@ -80,7 +80,7 @@ SELECT * FROM retiring_emp_titles
 
 
 -------------------------------------------------Mentorship ----------------------------------------------------------------
--- Should return the potential mentor’s
+----               Should return the potential mentor’s
 
 
 SELECT e.emp_no,
@@ -100,3 +100,7 @@ WHERE (de.to_date = '9999-01-01')
 	AND(e.birth_date BETWEEN '1965-01-01' AND '1965-12-31');
 
 SELECT * FROM mentorship_info
+
+
+EXAMPLES OF EACH OUTPUT
+![Mentor](mentorship_output.PNG)
