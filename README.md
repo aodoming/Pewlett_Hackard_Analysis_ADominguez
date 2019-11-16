@@ -68,6 +68,9 @@ ORDER BY emp_no
 SELECT * FROM unique_titles
 
 
+EXAMPLES OF EACH OUTPUT
+![unique](Unique_titles.PNG)
+
 
 ----------------------------------------------- Aggregate Level--------------------------------------------------
 --      In descending order (by date), list the frequency count of employee titles (i.e., how many employees share the same title?)
