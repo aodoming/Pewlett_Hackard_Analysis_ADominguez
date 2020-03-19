@@ -1,5 +1,4 @@
 ## DESCRIPTION
-Create Entity Relationship Diagrams(ERDs), perform data modeling, and complete analysis on an employee database using SQL techniques.
 In this project, we learn about data modeling, engineering, and analysis. Applying our knowledge of DataFrames and tabular data, we create entity relationship diagrams (ERDs), import data into a database, troubleshoot common errors, and create queries that use data to answer questions using SQL techniques.
 
 ### SITUATION/TASK
@@ -25,10 +24,7 @@ PNG OF YOUR ERD
 ![ERD](EmployeeDB.png)
 
 
------------------------------------------------------CODE----------------------------------------------------------
-			    (Code for the requested queries, with examples of each output)
-			
-			
+---------------------------------------CODE (Code for the requested queries, with examples of each output)--------------------------
 
 ------------------------Get a list of current employees eligible for retirement,including thieir most recent titles-----------------
 
@@ -73,7 +69,7 @@ EXAMPLES OF EACH OUTPUT
 
 
 ----------------------------------------------- Aggregate Level--------------------------------------------------
--------------In descending order (by date), list the frequency count of employee titles (i.e., how many employees share the same title?)
+	In descending order (by date), list the frequency count of employee titles (i.e., how many employees share the same title?)
 
 
 SELECT COUNT(title), title
@@ -88,8 +84,8 @@ EXAMPLES OF EACH OUTPUT
 ![retirees_emp](retiring_emp_titles_output.PNG)
 
 
--------------------------------------------------Mentorship ----------------------------------------------------------------
---------------------------------------------Should return the potential mentor’s
+-------------------------------------------------Mentorship-------------------------------------------------------------
+					Should return the potential mentor’s
 
 
 SELECT e.emp_no,
