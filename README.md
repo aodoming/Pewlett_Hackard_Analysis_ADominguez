@@ -1,28 +1,28 @@
-# Pewlett_Hackard_Analysis_ADominguez-
+## DESCRIPTION
 Create Entity Relationship Diagrams(ERDs), perform data modeling, and complete analysis on an employee database using SQL techniques.
+In this project, we learn about data modeling, engineering, and analysis. Applying our knowledge of DataFrames and tabular data, we create entity relationship diagrams (ERDs), import data into a database, troubleshoot common errors, and create queries that use data to answer questions using SQL techniques.
 
-BRIEF PROJECT SUMMARY
-      A company's baby boomer cohort will be retiring at a rapid rate. The company wants to 
-      who would be retiring in the next few years, who would meet the criteria for retirement packages
-      and how many positions will come available as a result. The database analysis will future proof 
-      the company by generating a list of all employees getting ready to retire, who is eligible for the retirement package and retirees       who could be potential mentors and a resource for the company. 
-      
-      The following are the findings from the database analysis:   
-        Number of Individuals retiring: 443,308
-        Number of Individuals being hired: 32,860
-        Number of individuals available for mentorship role:2382
-      
-      Recommendation for further analysis on this data set.
-      Further analysis of this data set could involve querying for a list of eligible retirees per department by title by date.
-      
-      
+### SITUATION/TASK
+A company's baby boomer cohort will be retiring at a rapid rate. The company wants to 
+who would be retiring in the next few years, who would meet the criteria for retirement packages
+and how many positions will come available as a result. The database analysis will future proof 
+the company by generating a list of all employees getting ready to retire, who is eligible for the retirement package and retirees       who could be potential mentors and a resource for the company. 
+
+### APPROACH
+* Use an ERD to understand relationships between SQL tables.
+* Create new tables in pgAdmin by using different joins.
+* Write basic- to intermediate-level SQL statements.
+* Export new tables to a CSV file.
+
+### RESULTS
+The following are the findings from the database analysis:   
+* Number of Individuals retiring: 443,308
+* Number of Individuals being hired: 32,860
+* Number of individuals available for mentorship role:2382
+             
 
 PNG OF YOUR ERD
 ![ERD](EmployeeDB.png)
-
-
-
-
 
 
 -----------------------------------------------------CODE----------------------------------------------------------
@@ -110,6 +110,18 @@ WHERE (de.to_date = '9999-01-01')
 
 SELECT * FROM mentorship_info
 
-
 EXAMPLES OF EACH OUTPUT
 ![Mentor](mentorship_output.PNG)
+
+### THINGS LEARNED
+* Designing an ERD that applies to the data.
+* Creating and using a SQL database.
+* Importing and exporting large CSV datasets into pgAdmin.
+* Practice using different joins to create new tables in pgAdmin.
+* Writing basic- to intermediate-level SQL statements.
+
+### SOFTWARE/TOOLS
+Postgres, pgAdmin
+
+### RECOMMENDATION FOR FURTHER ANALYSIS 
+Further analysis of this data set could involve querying for a list of eligible retirees per department by title by date.
