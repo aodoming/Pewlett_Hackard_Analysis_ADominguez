@@ -24,9 +24,9 @@ PNG OF YOUR ERD
 ![ERD](EmployeeDB.png)
 
 
------------------------------------CODE (Code for the requested queries, with examples of each output)------------------------
+-----------------------------------CODE (Code for the requested queries, with examples of each output)----------------------
 
------------------------Get a list of current employees eligible for retirement,including thieir most recent titles------------
+-----------------------Get a list of current employees eligible for retirement,including thieir most recent titles----------
 
 SELECT cur.emp_no,
 	   cur.first_name,
@@ -44,8 +44,8 @@ SELECT * FROM ret_titles
 EXAMPLES OF EACH OUTPUT
 ![retirees](ret_titles_output.PNG)
 
--------------------------------- Unique &  Most Recent Titles Use Partitioning------------------------------------------
---------------Get the final list with recent titles, by partitioning the data so that each employee is only included on the list once.
+-------------------------------- Unique &  Most Recent Titles Use Partitioning----------------------------------------
+	Get the final list with recent titles, by partitioning the data so that each employee is only included on the list once.
 
 
 SELECT *
@@ -84,7 +84,7 @@ EXAMPLES OF EACH OUTPUT
 ![retirees_emp](retiring_emp_titles_output.PNG)
 
 
--------------------------------------------------Mentorship---------------------------------------------------------
+----------------------------------------------------Mentorship--------------------------------------------------------------
 				Should return the potential mentor’s
 
 
