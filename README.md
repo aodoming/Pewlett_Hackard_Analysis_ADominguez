@@ -44,7 +44,7 @@ SELECT * FROM ret_titles
 EXAMPLES OF EACH OUTPUT
 ![retirees](ret_titles_output.PNG)
 
--------------------------------- Unique &  Most Recent Titles Use Partitioning---------------------------------------------
+-------------------------------- Unique &  Most Recent Titles Use Partitioning-------------------------------------------------
 	Get the final list with recent titles, by partitioning the data so that each employee is only included on the list once.
 
 
@@ -68,7 +68,7 @@ EXAMPLES OF EACH OUTPUT
 ![unique](Unique_titles.PNG)
 
 
------------------------------------------------ Aggregate Level--------------------------------------------------------------
+----------------------------------------------- Aggregate Level--------------------------------------------------------------------
 	In descending order (by date), list the frequency count of employee titles (i.e., how many employees share the same title?)
 
 
