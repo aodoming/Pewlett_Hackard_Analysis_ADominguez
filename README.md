@@ -24,9 +24,9 @@ PNG OF YOUR ERD
 ![ERD](EmployeeDB.png)
 
 
----------------------------------------CODE (Code for the requested queries, with examples of each output)--------------------------
+-----------------------------------CODE (Code for the requested queries, with examples of each output)------------------------
 
-------------------------Get a list of current employees eligible for retirement,including thieir most recent titles-----------------
+-----------------------Get a list of current employees eligible for retirement,including thieir most recent titles------------
 
 SELECT cur.emp_no,
 	   cur.first_name,
@@ -84,8 +84,8 @@ EXAMPLES OF EACH OUTPUT
 ![retirees_emp](retiring_emp_titles_output.PNG)
 
 
--------------------------------------------------Mentorship-------------------------------------------------------------
-					Should return the potential mentor’s
+-------------------------------------------------Mentorship---------------------------------------------------------
+				Should return the potential mentor’s
 
 
 SELECT e.emp_no,
